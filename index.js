@@ -123,7 +123,7 @@ const getBalances = async (fromWallet, toWallet) => {
     }
 };
 
-// Check if from wallet balance is not null then transfer
+// Check if from wallet balance is not low then transfer
 // else airdrop 2 Sol to from wallet
 
 // Derived function transferring half of from wallet balance
